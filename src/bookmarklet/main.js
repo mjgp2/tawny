@@ -9,5 +9,5 @@
     window.alert('Browse to a target page to use with magic.import.io and try again!');
     return false;
   }
-  window.open('https://magic.import.io/?site='+encodeURIComponent(url)+'&utm_source=bm&utm_medium=bm&utm_campaign=bm', '_blank');
+  window.open('https://magic.import.io/?site='+encodeURIComponent('http://render.import.io/?inf=20&url='+encodeURIComponent(url))+'&utm_source=bm&utm_medium=bm&utm_campaign=bm', '_blank');
 }());
